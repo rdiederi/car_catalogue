@@ -3,7 +3,7 @@
 ## Requirements
 - PHP 7.4 or higher
 - MySQL/MariaDB
-- Composer (optional, if using additional PHP packages)
+- Composer 
 
 ## Project Setup
 
@@ -25,9 +25,9 @@
 3. **Running the project:**
    Use PHP's built-in server to run the project:
    ```bash
-   php -S localhost:8000
+   php -S localhost:8005
    ```
-   Access the site at [http://localhost:8000](http://localhost:8000).
+   Access the site at [http://localhost:8005](http://localhost:8005).
 
 ## Database Access
 - **Username:** car_catalogue_user
