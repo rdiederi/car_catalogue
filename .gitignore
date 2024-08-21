@@ -1,0 +1,76 @@
+# Ignore the Composer vendor directory
+/vendor/
+
+# Ignore environment files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore compiled PHP extensions and caches
+*.out
+*.phpunit.result.cache
+.phpunit.cache
+/.phpunit.result.cache
+
+# Ignore SQL dumps
+*.sql
+*.sql.gz
+
+# Ignore node_modules and related files if you ever use Node.js
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor specific files
+/.idea/
+/.vscode/
+/*.swp
+
+# Ignore Composer lock file if you prefer not to commit it
+# However, in many projects, it's better to commit composer.lock
+# /composer.lock
+
+# Ignore backups and temporary files
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Ignore compiled files
+*.class
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore any compiled or generated assets
+/public/build/
+/public/storage/
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/logs/*.log
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Ignore coverage reports
+coverage/
+
+# Ignore PHPStorm and other IDE project files
+/.idea
+/.vscode
+*.iml
+
+# Ignore MacOS folder attributes
+__MACOSX/
+
+# Ignore cache and build files
+/cache/
+/build/
+
+# Ignore any generated application files
+/generated/
